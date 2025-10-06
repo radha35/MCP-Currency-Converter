@@ -13,6 +13,12 @@ This project is a hands-on guide to understanding and building with the **Model 
 
 ---
 
+## 🔧 How It Works
+
+The MCP Currency Converter server works by registering a custom tool with a clearly defined **name, description, input schema, and function**. When an LLM or MCP client sends a request, the server validates the input using **Zod**, fetches live currency exchange rates from an API, computes the converted amount, and formats the response in a standardized structure. Multiple tools can be added to the same MCP server, allowing it to handle various tasks while maintaining **security, reliability, and consistency**. This setup demonstrates how MCP enables AI models to interact dynamically with real-time data, without hardcoding values or relying on manual copy-paste operations.
+
+---
+
 ## 🏗️ Project Setup
 
 ### 1️⃣ Clone the repository
